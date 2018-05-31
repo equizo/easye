@@ -24,8 +24,8 @@ Shader "Custom/CustomChromakey" {
    o.Emission = c.rgb;
     
    // Green screen level - leaves minor green glow
-   //if (c.g >= 0.67f && c.r <= 0.65f && c.b <= 0.65f && _AlphaValue == 0.0) 
-   if (c.r == 0.0f && c.g == 0.0f && c.b == 0.0f && _AlphaValue == 0.0)
+   //if (c.g >= 0.67f && c.r <= 0.65f && c.b <= 0.65f && _AlphaValue == 0.0)
+   if (c.r == 0.0f && c.g == 0.0f && c.b == 0.0f && _AlphaValue == 0.0) // black
          {
           o.Alpha = 0.0;
          }
