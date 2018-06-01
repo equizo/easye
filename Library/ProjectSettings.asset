@@ -162,8 +162,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.init.demo_ar_jc
-    iOS: com.init.demo_ar_jc
+    Android: com.init.augmento
+    iOS: com.init.augmento
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
